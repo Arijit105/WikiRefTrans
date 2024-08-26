@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Reference Translator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Wikipedia Reference Translator</h1>
+        </header>
+        <div class="translator">
+
+            <div class="textareas">
+                <textarea id="inputText" placeholder="Enter text..."></textarea>
+                <textarea id="outputText" placeholder="Translated text..."></textarea>
+            </div>
+            <div class="dropdown-container">
+                <select id="sourceLang">
+                    <option value="e2b">English to Bengali</option>
+                    <option value="e2h">English to Hindi</option>
+                    <option value="b2h">Bengali to Hindi</option>
+                    <option value="h2b">Hindi to Bengali</option>
+                    <option value="h2e">Hindi to English</option>
+                </select>
+                <button id="translateButton">Translate</button>
+            </div>
+        </div>
+        <footer>
+            <p>Created by <a href="https://en.wikipedia.org/wiki/User:Arijit_Kisku" target="_blank">Arijit Kisku</a></p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/sync.js"></script>
+</body>
+
+</html>
